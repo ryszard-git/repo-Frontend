@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">    
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Leasing Polski Sp. z o.o.</title>
+<link rel="stylesheet" href="leasing.css" type="text/css" />
+</head>
+
+<body>
+
+
+<div class="all">
+	<div class="baner">
+		<img src="baner.jpg" alt="baner" width="780" height="150" />
+	</div>
+<div class="menu">
+<div class="pusty">
+</div>
+	<ul id="menu">
+		<li><a href="#">Pracownicy</a>
+			<ul>
+				<li><a href="przegladanie_pracow.html">Przeglądanie</a></li>
+				<li><a href="dodanie_pracow.html">Dodanie</a></li>
+				<li><a href="usuniecie_pracow.html">Usunięcie</a></li>
+				<li><a href="edycja_pracow.html">Edycja</a></li>
+				<li><a href="str_prywatne.html">Strony prywatne</a></li>
+			</ul>
+		</li>
+
+		<li><a href="zarzad.html">Ogłoszenia Zarządu</a></li>
+		<li><a href="#">Nowości IT</a>
+			<ul>
+				<li><a href="przegladanie_it.html">Przeglądanie</a></li>
+				<li><a href="dodawanie_it.html">Dodawanie</a></li>
+				<li><a href="usuniecie_it.html">Usunięcie</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Forum</a>
+			<ul>
+				<li><a href="przegladanie_forum.html">Przeglądanie</a></li>
+				<li><a href="dodanie_wpisu.html">Dodanie wpisu</a></li>
+				<li><a href="usuniecie_wpisu.html">Usunięcie wpisu</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
+
+	<div class="tresc">
+		<p class="tytulokna">Edycja danych pracownika</p>
+		<a class="glowna" href="index.html">Strona główna</a>
+		<div class="srodek">
+			<form action="">
+			<select name="pracownik">
+			<option>-- Imię i Nazwisko pracownika --</option>
+			<option>Janusz Nieznański</option>
+			<option>Andrzej Krukowski</option>
+			<option>Adam Dobrowolski</option>
+			</select><br/><br/><br/>
+			<p>Zdjęcie: <input type="file" name="zdjecie" /></p>
+			<br/>
+			<input type="radio" name="rodzaj" checked="checked" /> - terenowy
+			<br/><br/>
+			<input type="radio" name="rodzaj" /> - stacjonarny
+			<br/><br/>
+			<legend>Opis:</legend>
+			<textarea name="opis" cols="60" rows="5">... informacje o pracowniku.</textarea>
+			<input type="submit" value="Edytuj dane pracownika" />
+			</form>
+		</div>
+
+	</div>
+
+	<div class="foot">
+		<br/>
+		<p>&copy; 2021 Wszystkie prawa zastrzeżone.</p>
+		<br/>
+		<a href="mailto:admin@abc.pl">e-mail do administratora</a>
+	</div>
+</div>
+</body>
+</html>

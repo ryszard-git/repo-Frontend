@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #999999;
+	font-family: Arial;
+}
+
+.pojemnik {
+	width: 216px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.pola {
+	width: 70px;
+	height: 70px;
+	border: 1px solid #000000;
+	float: left;
+	font-size: 60px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.kontener {
+	background-color: #bbb;
+	border: 1px solid #000000;
+	width: 450px;
+	height: 350px;
+	margin: 40px auto 0 auto;
+}
+
+.wynik {
+	clear: left;
+	margin-top: 30px;
+	margin-left: 20px;
+	float: left;
+	font-size: 20px;
+}
+button {
+	margin-left: 30px;
+	margin-top: 70px;
+	height: 40px;
+	font-size: 20px;
+	cursor: pointer;
+	padding: 5px;
+}
+
+#tura {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+form {
+	float: right;
+	margin-right: 20px;
+	display: inline-block;
+}
+#poczatek {
+	display: inline-block;
+	margin-top: 85px;
+	margin-left: 35px;
+}

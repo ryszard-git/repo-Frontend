@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	background-color: #555;
+}
+	
+.pojemnik {
+	border: 2px solid #000;
+	margin: 30px auto 0px auto;
+	width: 232px;
+	min-height: 330px;
+	background-color: #FFF;
+}
+
+#wysw {
+	border: 1px solid #000;
+	width: 212px;
+	height: 60px;
+	margin: 5px auto 20px auto;
+	font-size: 25px;
+	text-align: right;
+	background-color: #EEE;
+	padding-right: 5px;
+	overflow: hidden;
+	word-break: break-all;
+}
+
+.pola {
+	border: 1px solid #000;
+	width: 50px;
+	height: 40px;
+	margin: 3px;
+	float: left;
+	cursor: pointer;
+	text-align: center;
+	font-size: 35px;
+	border-radius: 5px;
+	background-color: #CCC;
+}	
+
+#obl {
+	border: 1px solid #000;
+	width: 212px;
+	height: 40px;
+	margin: 5px auto 15px 10px;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+	font-size: 35px;
+	border-radius: 5px;
+	background-color: #CCC;
+}
+
